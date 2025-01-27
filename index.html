@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/webcamjs/1.0.26/webcam.min.js" integrity="sha512-dQIiHSl2hr3NWKKLycPndtpbh5iaHLo6MwrXm7F0FM5e+kL2U16oE9uIwPHUl6fQBeCthiEuV/rzP3MiAB8Vfw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+
+	<script src="https://unpkg.com/ml5@1/dist/ml5.min.js"></script>
+
+
+
+	<title>Image Recognition</title>
+</head>
+<body>
+	<center>
+		<h5 class="bug">some bug and mistakes will fix by ubdate</h5>
+		<h1 class="text-primary">Image Recognition</h1>
+		<p class="text-danger">vvvvv  This models is trained to identify the object  vvvvv</p>
+
+
+
+		<b>
+			<hr>
+			Human
+			<hr>
+			Watch
+			<hr>
+			Headphone
+			<hr>
+			Phone
+			<hr>
+			Bottle
+			<hr>
+			Calender
+			<hr>
+			Background
+			<hr>
+		</b>
+		<br>
+		<label class="fw-bold">Webcam view:</label>
+		<br>
+		<div id="camera"></div>
+		<br>
+		<hr>
+		<br>
+		<button class="btn btn-danger fw-bold" onclick="take_snap()">Capture image</button>
+		<br>
+		<br>
+		<br>
+		<br>
+		<label class="fw-bold">Captured image:</label>
+		<br>
+		<br>
+		<br>
+		<div id="result"></div>
+		<button class="btn btn-danger fw-bold" onclick="identify()">Identify image</button>
+		<br>
+		<br>
+		<br>
+		<p class="fw-bold">Object: <span id="object"></span></p>
+		<br>
+		<br>
+		<p class="fw-bold" class="text-danger">Accuracy: <span id="accuracy"></span></p>
+		<p class="demo">Developed by Sayak</p>
+	</center>
+
+
+	<script type="text/javascript" src="script.js"></script> 
+</body>
+</html>

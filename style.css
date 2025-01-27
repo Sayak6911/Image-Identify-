@@ -1,0 +1,25 @@
+body{
+	background: lavender;
+}
+#camera{
+	width: 350px;
+	height: 300px;
+	border-radius: 10%;
+	border: 5px dashed blueviolet;
+}
+label{
+	color: brown;
+}
+p{
+	font-size: 18px;
+	color: green;
+}
+b{
+	color: purple;
+}
+bug{
+	background-color: darkred;
+}
+demo{
+	background-color: blue;
+}
