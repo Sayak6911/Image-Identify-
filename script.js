@@ -36,5 +36,5 @@ function identify() {
 function gotResult(results) {
   console.log(results);
   document.getElementById("object").innerHTML=results[0].label;
-  document.getElementById("accuracy").innerHTML=results[0].confidence,0,2;
+  document.getElementById("accuracy").innerHTML=(results[0].confidence*100).toFixed(2)+"%";
 }

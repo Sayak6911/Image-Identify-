@@ -1,11 +1,12 @@
 body{
-	background:url(C:\Users\sursa\web desi\api web\image_recog\img.jpg);
+	background-color: yellowgreen;
 }
 #camera{
-	width: 350px;
-	height: 300px;
-	border-radius: 10%;
+	width: auto;
+	height: auto;
+	border-radius: 30%;
 	border: 5px dashed blueviolet;
+	overflow: hidden;
 }
 label{
 	color: brown;
@@ -17,9 +18,16 @@ p{
 b{
 	color: purple;
 }
-bug{
-	background-color: darkred;
+#bug{
+	color: darkred;
 }
-demo{
-	background-color: blue;
+#demo{
+	color: blue;
+}
+#result{
+	width: 350px;
+	height: 300px;
+	border-radius: 30%;
+	border: 5px dashed blueviolet;
+	overflow: hidden;
 }
